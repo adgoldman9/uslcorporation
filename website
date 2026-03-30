@@ -1,0 +1,58 @@
+Create a professional, modern, fast-loading multi-page Next.js 15 website (app router) for USL Corporation — a Service-Disabled Veteran-Owned Small Business (SDVOSB) specializing in digital engineering and manufacturing solutions for aerospace, defense, and maritime industries.
+
+Use Tailwind CSS + shadcn/ui components. Dark navy/blue palette: primary #0A2540, accent #00B4FF, neutral #F8F9FA / #0F172A. Clean minimal 2026 B2B aerospace/defense aesthetic — high whitespace, subtle framer-motion fade-ins and hover scales, premium trustworthy tone inspired by Anduril / BlueHalo / RTX clean designs.
+
+Logo: Use the exact client logo (white bold blocky stencil "USL." text on dark gray horizontal bar). Place it top-left in the sticky navigation bar. Make the logo clickable to home. Keep 100% original design and colors — do not alter or redraw it. Add a small gold/navy "SDVOSB Veteran-Owned" badge next to it. On mobile, logo shrinks cleanly with hamburger menu.
+
+Navigation (sticky top bar): Home • About • Aerospace & Defense • Products & Services • Blog • Contact. Logo left, links center, "Get a Quote" electric-blue button right.
+
+Footer: © 2026 USL Corporation. All rights reserved. | Phone: 480-567-6177 | Email: andrew.goldman@uslcorporation.com | LinkedIn: https://www.linkedin.com/company/uslcorp/ | Veteran-owned badge.
+
+Exact content (use all of it, do not summarize):
+
+**Home Page (/)**
+Hero: Full-width with subtle navy tech gradient background. Headline: "Committed to Delivering Excellence". Subtext: USL is a proud veteran-owned small business dedicated to delivering critical services and solutions. Strong CTA buttons: "Get a Quote" and "Learn More".
+Full company description paragraph: "USL provides digital engineering services for aerospace, defense, and maritime industries. We specialize in converting physical hardware—particularly legacy, obsolete, or mission-critical components—into precise, digital assets..." (include entire paragraph about scanning, CAD models, TDPs, digital twins, reverse engineering, domestic sustainment).
+Why Choose Us section with 6 bullets: Service Disabled Veteran-Owned Small Business, CMMC and JCP Certified, Proven Expertise, Commitment to Innovation, Compliance & Safety, Mission-Driven.
+Lean Framework section: "USL's framework for success focuses on utilizing Lean Startup, Management, and Manufacturing principles" + full list.
+
+**About Page (/about)**
+Full Home company description + leadership/military experience text. Display SDVOSB, UEI: RG5WUM6N5H83, Cage Code: 9RHK8, DUNS: 119147576. Re-use "Why Choose USL" bullets.
+
+**Aerospace & Defense Page (/aerospace-defense)**
+Headline: "Supporting the Warfighter with Superior Digital Engineering Solutions"
+Full mission text: "Our mission remains steadfast: to support the warfighter..."
+Why Choose USL subsection with the 4 detailed points (Digital Engineering Expertise, Quality and Compliance, Innovation, Reliability).
+Strong CTAs: "Get in Touch" and "Partner with USL".
+
+**Products & Services Page (/services)**
+Headline: "Aerospace & Defense Hardware Solutions"
+Full intro paragraph about digitization and sustainment.
+Core Services section with exact headings and full descriptions:
+- Digital Engineering and Hardware Digitization
+- Program and Supply Chain Management
+- Advanced Manufacturing Integration
+- Maintenance, Repair, and Overhaul (MRO) and Spare Parts Sustainment
+- Engineering and Development Support
+- Integrated Logistics Support (ILS)
+- Compliance and Export Control (ITAR, EAR, DFARS, CMMC Level 2, JCP)
+Mil-Spec Packaging and Logistic Services (full text).
+Manufacturing Solutions section + Industry Certifications and NAICS codes at bottom.
+
+**Blog Page (/blog)**
+Title "Blog". Placeholder text: "Insights on digital engineering, obsolescence mitigation, and defense manufacturing. Coming soon." Add 3–4 clean article cards ready for future posts.
+
+**Contact Page (/contact)**
+Headline: "Contact USL Corporation"
+Text: "Feel free to reach out to us. We'll respond as soon as we can."
+Display: Phone 480-567-6177 (click-to-call), Email andrew.goldman@uslcorporation.com, LinkedIn link.
+Clean contact form: Name, Email, Company, Message + Submit button. On submit show success message (use emailjs or console for now).
+
+Additional requirements:
+- Every page has proper <title> and meta description for SEO.
+- Smooth scroll navigation from menu.
+- Floating "Request a Quote" button on every page.
+- Fully responsive, mobile-first, lightning-fast.
+- Output complete project with all files (app router, layout.tsx, pages, components, package.json) ready to run and deploy to Vercel.
+
+Start coding now.
